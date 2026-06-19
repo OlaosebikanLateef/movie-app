@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TvCard = ({ tvShow:{ name, description, vote_average, poster_path, first_air_date, original_language, overview } }) => {
+const TvCard = ({ tvShow:{ name, vote_average, poster_path, first_air_date, original_language} }) => {
 
   
   return (

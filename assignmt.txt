@@ -1,0 +1,9 @@
+Nav bar
+
+about
+services
+contact
+Home
+footer 
+
+
