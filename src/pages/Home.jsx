@@ -175,7 +175,7 @@ useEffect(() => {
       <div className="wrapper">
         <header>
           <img src="/hero.png" alt="Hero Banner"  />
-          <h1 > Find <span className="text-gradient">Movies</span> You'll enjoy Without the Hassle</h1>
+          <h1 > Find <span className="text-gradient">ENiola</span> You'll enjoy Without the Hassle</h1>
          </header>
 
 

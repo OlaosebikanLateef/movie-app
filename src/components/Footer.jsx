@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -8,10 +10,12 @@ const Footer = () => {
       </p>
 
       <div className="flex justify-center gap-6 mt-3">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+       <ul className="flex gap-6 text-white">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
       </div>
     </footer>
   );
